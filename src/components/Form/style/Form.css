@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.form {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  padding: 40px 100px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex; }
+  .form__wallpaper {
+    width: 45%;
+    height: 100%;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    border-radius: 10px; }
+  .form__menu {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%; }
+    .form__menu-title {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 60px;
+      letter-spacing: 2px;
+      color: 0;
+      margin-top: 0px;
+      color: #fff; }
+    .form__menu-box {
+      width: auto;
+      height: auto;
+      margin-top: 20px; }
+      .form__menu-box .input__title {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        color: 0;
+        margin-top: 0px;
+        color: #fff; }
+      .form__menu-box .form__input {
+        width: 400px;
+        height: 60px;
+        background-color: transparent;
+        outline: none;
+        border-radius: 35px;
+        border: 1px solid #334155;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        color: #94A3B8;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px; }
+    .form__menu-buttons {
+      width: auto;
+      height: auto;
+      margin-top: 50px; }
+      .form__menu-buttons .form__button {
+        width: 201px;
+        height: 55px;
+        border-radius: 50px;
+        transition: 0.5s;
+        border: none;
+        cursor: pointer;
+        background: #9747FF;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        color: #fff;
+        margin-top: 0px; }
+        .form__menu-buttons .form__button:hover {
+          background-color: transparent;
+          border: 1px solid #9747FF;
+          transition: 1s; }
+      .form__menu-buttons .form__login {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        color: #94A3B8;
+        margin-top: 20px;
+        cursor: pointer; }
+        .form__menu-buttons .form__login span {
+          color: #9747FF; }
+
+@media screen and (max-width: 1200px) {
+  .form {
+    padding: 40px 60px; } }
+@media screen and (max-width: 1100px) {
+  .form {
+    padding: 30px 40px; }
+    .form__wallpaper {
+      width: 40%;
+      height: 80%; }
+    .form__menu {
+      padding-right: 0%; } }
+@media screen and (max-width: 850px) {
+  .form {
+    padding: 30px 40px; }
+    .form__wallpaper {
+      width: 40%;
+      height: 80%; }
+    .form__menu {
+      padding-right: 0%; } }
+@media screen and (max-width: 850px) {
+  .form {
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+    .form__wallpaper {
+      width: 80%;
+      height: 80%;
+      position: absolute;
+      z-index: 0;
+      opacity: 0.5; }
+    .form__menu {
+      padding-right: 0%;
+      z-index: 1; } }
+@media screen and (max-width: 600px) {
+  .form__wallpaper {
+    width: 100%;
+    height: 100%; }
+  .form__menu-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    color: 0;
+    margin-top: 0px;
+    color: #fff;
+    text-align: center; }
+  .form__menu-box .form__input {
+    width: 330px; } }
+
+/*# sourceMappingURL=Form.css.map */
